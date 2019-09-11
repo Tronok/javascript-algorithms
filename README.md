@@ -26,6 +26,7 @@ only and it is **not** meant to be used for production.*
 
 ## Plan
 Start with things marked as `R`
+
 0. Kormen - general design and ideas behind data algorithms.
 1. Data structures + Linked Lists
 2. Sorting 
