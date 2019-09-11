@@ -30,23 +30,23 @@ be accessed and modified efficiently. More precisely, a data structure is a coll
 values, the relationships among them, and the functions or operations that can be applied to
 the data.
 
-`B` - Beginner, `A` - Advanced
+`B` - Beginner, `A` - Advanced, `R` - required to know, `G` - good to know
 
-* `B` [Linked List](src/data-structures/linked-list)
-* `B` [Doubly Linked List](src/data-structures/doubly-linked-list)
-* `B` [Queue](src/data-structures/queue)
-* `B` [Stack](src/data-structures/stack)
-* `B` [Hash Table](src/data-structures/hash-table)
-* `B` [Heap](src/data-structures/heap) - max and min heap versions
-* `B` [Priority Queue](src/data-structures/priority-queue)
-* `A` [Trie](src/data-structures/trie)
-* `A` [Tree](src/data-structures/tree)
-  * `A` [Binary Search Tree](src/data-structures/tree/binary-search-tree)
+* `B``R` [Linked List](src/data-structures/linked-list)
+* `B``R` [Doubly Linked List](src/data-structures/doubly-linked-list)
+* `B``R` [Queue](src/data-structures/queue)
+* `B``R` [Stack](src/data-structures/stack)
+* `B``R` [Hash Table](src/data-structures/hash-table)
+* `B``R` [Heap](src/data-structures/heap) - max and min heap versions
+* `B``R` [Priority Queue](src/data-structures/priority-queue)
+* `A``R` [Tree](src/data-structures/tree)
+  * `A``R` [Binary Search Tree](src/data-structures/tree/binary-search-tree)
   * `A` [AVL Tree](src/data-structures/tree/avl-tree)
   * `A` [Red-Black Tree](src/data-structures/tree/red-black-tree)
   * `A` [Segment Tree](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples
   * `A` [Fenwick Tree](src/data-structures/tree/fenwick-tree) (Binary Indexed Tree)
 * `A` [Graph](src/data-structures/graph) (both directed and undirected)
+* `A``G` [Trie](src/data-structures/trie)
 * `A` [Disjoint Set](src/data-structures/disjoint-set)
 * `A` [Bloom Filter](src/data-structures/bloom-filter)
 
@@ -60,24 +60,24 @@ a set of rules that precisely define a sequence of operations.
 ### Algorithms by Topic
 
 * **Math**
-  * `B` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
-  * `B` [Factorial](src/algorithms/math/factorial) 
-  * `B` [Fibonacci Number](src/algorithms/math/fibonacci) - classic and closed-form versions
-  * `B` [Primality Test](src/algorithms/math/primality-test) (trial division method)
-  * `B` [Euclidean Algorithm](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
-  * `B` [Least Common Multiple](src/algorithms/math/least-common-multiple) (LCM)
-  * `B` [Sieve of Eratosthenes](src/algorithms/math/sieve-of-eratosthenes) - finding all prime numbers up to any given limit
-  * `B` [Is Power of Two](src/algorithms/math/is-power-of-two) - check if the number is power of two (naive and bitwise algorithms)
-  * `B` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
-  * `B` [Complex Number](src/algorithms/math/complex-number) - complex numbers and basic operations with them
-  * `B` [Radian & Degree](src/algorithms/math/radian) - radians to degree and backwards conversion
-  * `B` [Fast Powering](src/algorithms/math/fast-powering)
+  * `B``R` [Bit Manipulation](src/algorithms/math/bits) - set/get/update/clear bits, multiplication/division by two, make negative etc.
+  * `B``R` [Factorial](src/algorithms/math/factorial) 
+  * `B``R` [Fibonacci Number](src/algorithms/math/fibonacci) - classic and closed-form versions
+  * `B``R` [Primality Test](src/algorithms/math/primality-test) (trial division method)
+  * `B``R` [Euclidean Algorithm](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
+  * `B``R` [Least Common Multiple](src/algorithms/math/least-common-multiple) (LCM)
+  * `B``G` [Sieve of Eratosthenes](src/algorithms/math/sieve-of-eratosthenes) - finding all prime numbers up to any given limit
+  * `B``R` [Is Power of Two](src/algorithms/math/is-power-of-two) - check if the number is power of two (naive and bitwise algorithms)
+  * `B``G` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
+  * `B``R` [Complex Number](src/algorithms/math/complex-number) - complex numbers and basic operations with them
+  * `B``R` [Radian & Degree](src/algorithms/math/radian) - radians to degree and backwards conversion
+  * `B``R` [Fast Powering](src/algorithms/math/fast-powering)
   * `A` [Integer Partition](src/algorithms/math/integer-partition)
   * `A` [Square Root](src/algorithms/math/square-root) - Newton's method
   * `A` [Liu Hui π Algorithm](src/algorithms/math/liu-hui) - approximate π calculations based on N-gons
   * `A` [Discrete Fourier Transform](src/algorithms/math/fourier-transform) - decompose a function of time (a signal) into the frequencies that make it up 
 * **Sets**
-  * `B` [Cartesian Product](src/algorithms/sets/cartesian-product) - product of multiple sets
+  * `B``R` [Cartesian Product](src/algorithms/sets/cartesian-product) - product of multiple sets
   * `B` [Fisher–Yates Shuffle](src/algorithms/sets/fisher-yates) - random permutation of a finite sequence
   * `A` [Power Set](src/algorithms/sets/power-set) - all subsets of a set (bitwise and backtracking solutions)
   * `A` [Permutations](src/algorithms/sets/permutations) (with and without repetitions)
@@ -89,44 +89,44 @@ a set of rules that precisely define a sequence of operations.
   * `A` [Maximum Subarray](src/algorithms/sets/maximum-subarray) - "Brute Force" and "Dynamic Programming" (Kadane's) versions
   * `A` [Combination Sum](src/algorithms/sets/combination-sum) - find all combinations that form specific sum
 * **Strings**
-  * `B` [Hamming Distance](src/algorithms/string/hamming-distance) - number of positions at which the symbols are different
+  * `B``R` [Hamming Distance](src/algorithms/string/hamming-distance) - number of positions at which the symbols are different
   * `A` [Levenshtein Distance](src/algorithms/string/levenshtein-distance) - minimum edit distance between two sequences
-  * `A` [Knuth–Morris–Pratt Algorithm](src/algorithms/string/knuth-morris-pratt) (KMP Algorithm) - substring search (pattern matching)
+  * `A``R` [Knuth–Morris–Pratt Algorithm](src/algorithms/string/knuth-morris-pratt) (KMP Algorithm) - substring search (pattern matching)
   * `A` [Z Algorithm](src/algorithms/string/z-algorithm) - substring search (pattern matching)
   * `A` [Rabin Karp Algorithm](src/algorithms/string/rabin-karp) - substring search
   * `A` [Longest Common Substring](src/algorithms/string/longest-common-substring)
   * `A` [Regular Expression Matching](src/algorithms/string/regular-expression-matching)
 * **Searches**
-  * `B` [Linear Search](src/algorithms/search/linear-search)
+  * `B``R` [Linear Search](src/algorithms/search/linear-search)
   * `B` [Jump Search](src/algorithms/search/jump-search) (or Block Search) - search in sorted array
-  * `B` [Binary Search](src/algorithms/search/binary-search) - search in sorted array
+  * `B``R` [Binary Search](src/algorithms/search/binary-search) - search in sorted array
   * `B` [Interpolation Search](src/algorithms/search/interpolation-search) - search in uniformly distributed sorted array
 * **Sorting**
   * `B` [Bubble Sort](src/algorithms/sorting/bubble-sort)
   * `B` [Selection Sort](src/algorithms/sorting/selection-sort)
   * `B` [Insertion Sort](src/algorithms/sorting/insertion-sort)
-  * `B` [Heap Sort](src/algorithms/sorting/heap-sort)
-  * `B` [Merge Sort](src/algorithms/sorting/merge-sort)
-  * `B` [Quicksort](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
+  * `B``R` [Heap Sort](src/algorithms/sorting/heap-sort)
+  * `B``R` [Merge Sort](src/algorithms/sorting/merge-sort)
+  * `B``R` [Quicksort](src/algorithms/sorting/quick-sort) - in-place and non-in-place implementations
   * `B` [Shellsort](src/algorithms/sorting/shell-sort)
   * `B` [Counting Sort](src/algorithms/sorting/counting-sort)
-  * `B` [Radix Sort](src/algorithms/sorting/radix-sort)
+  * `B``G` [Radix Sort](src/algorithms/sorting/radix-sort)
 * **Linked Lists**
-  * `B` [Straight Traversal](src/algorithms/linked-list/traversal)
-  * `B` [Reverse Traversal](src/algorithms/linked-list/reverse-traversal)
+  * `B``R` [Straight Traversal](src/algorithms/linked-list/traversal)
+  * `B``R` [Reverse Traversal](src/algorithms/linked-list/reverse-traversal)
 * **Trees**
   * `B` [Depth-First Search](src/algorithms/tree/depth-first-search) (DFS)
   * `B` [Breadth-First Search](src/algorithms/tree/breadth-first-search) (BFS)
 * **Graphs**
-  * `B` [Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
-  * `B` [Breadth-First Search](src/algorithms/graph/breadth-first-search) (BFS)
-  * `B` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-  * `A` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - finding shortest paths to all graph vertices from single vertex
-  * `A` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - finding shortest paths to all graph vertices from single vertex
+  * `B``R` [Depth-First Search](src/algorithms/graph/depth-first-search) (DFS)
+  * `B``R` [Breadth-First Search](src/algorithms/graph/breadth-first-search) (BFS)
+  * `B``G` [Kruskal’s Algorithm](src/algorithms/graph/kruskal) - finding Minimum Spanning Tree (MST) for weighted undirected graph
+  * `A``R` [Dijkstra Algorithm](src/algorithms/graph/dijkstra) - finding shortest paths to all graph vertices from single vertex
+  * `A``R` [Bellman-Ford Algorithm](src/algorithms/graph/bellman-ford) - finding shortest paths to all graph vertices from single vertex
   * `A` [Floyd-Warshall Algorithm](src/algorithms/graph/floyd-warshall) - find shortest paths between all pairs of vertices
   * `A` [Detect Cycle](src/algorithms/graph/detect-cycle) - for both directed and undirected graphs (DFS and Disjoint Set based versions)
   * `A` [Prim’s Algorithm](src/algorithms/graph/prim) - finding Minimum Spanning Tree (MST) for weighted undirected graph
-  * `A` [Topological Sorting](src/algorithms/graph/topological-sorting) - DFS method
+  * `A``G` [Topological Sorting](src/algorithms/graph/topological-sorting) - DFS method
   * `A` [Articulation Points](src/algorithms/graph/articulation-points) - Tarjan's algorithm (DFS based)
   * `A` [Bridges](src/algorithms/graph/bridges) - DFS based algorithm
   * `A` [Eulerian Path and Eulerian Circuit](src/algorithms/graph/eulerian-path) - Fleury's algorithm - Visit every edge exactly once
