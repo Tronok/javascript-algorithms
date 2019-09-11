@@ -23,6 +23,19 @@ _Read this in other languages:_
 *☝ Note that this project is meant to be used for learning and researching purposes 
 only and it is **not** meant to be used for production.*
 
+
+## Plan
+Start with things marked as `R`
+0. Kormen - general design and ideas behind data algorithms.
+1. Data structures + Linked Lists
+2. Sorting 
+3. Search
+4. Graphs
+5. Math
+6. Strings
+7. The rest marked with `R`
+8. The rest marked with `G`
+
 ## Data Structures
 
 A data structure is a particular way of organizing and storing data in a computer so that it can
@@ -31,6 +44,7 @@ values, the relationships among them, and the functions or operations that can b
 the data.
 
 `B` - Beginner, `A` - Advanced, `R` - required to know, `G` - good to know
+
 
 * `B``R` [Linked List](src/data-structures/linked-list)
 * `B``R` [Doubly Linked List](src/data-structures/doubly-linked-list)
@@ -45,7 +59,7 @@ the data.
   * `A` [Red-Black Tree](src/data-structures/tree/red-black-tree)
   * `A` [Segment Tree](src/data-structures/tree/segment-tree) - with min/max/sum range queries examples
   * `A` [Fenwick Tree](src/data-structures/tree/fenwick-tree) (Binary Indexed Tree)
-* `A` [Graph](src/data-structures/graph) (both directed and undirected)
+* `A``R` [Graph](src/data-structures/graph) (both directed and undirected)
 * `A``G` [Trie](src/data-structures/trie)
 * `A` [Disjoint Set](src/data-structures/disjoint-set)
 * `A` [Bloom Filter](src/data-structures/bloom-filter)
