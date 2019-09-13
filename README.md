@@ -81,11 +81,11 @@ a set of rules that precisely define a sequence of operations.
   * `B``R` [Primality Test](src/algorithms/math/primality-test) (trial division method)
   * `B``R` [Euclidean Algorithm](src/algorithms/math/euclidean-algorithm) - calculate the Greatest Common Divisor (GCD)
   * `B``R` [Least Common Multiple](src/algorithms/math/least-common-multiple) (LCM)
-  * `B``G` [Sieve of Eratosthenes](src/algorithms/math/sieve-of-eratosthenes) - finding all prime numbers up to any given limit
+  * `B` [Sieve of Eratosthenes](src/algorithms/math/sieve-of-eratosthenes) - finding all prime numbers up to any given limit
   * `B``R` [Is Power of Two](src/algorithms/math/is-power-of-two) - check if the number is power of two (naive and bitwise algorithms)
-  * `B``G` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
-  * `B``R` [Complex Number](src/algorithms/math/complex-number) - complex numbers and basic operations with them
-  * `B``R` [Radian & Degree](src/algorithms/math/radian) - radians to degree and backwards conversion
+  * `B` [Pascal's Triangle](src/algorithms/math/pascal-triangle)
+  * `B` [Complex Number](src/algorithms/math/complex-number) - complex numbers and basic operations with them
+  * `B` [Radian & Degree](src/algorithms/math/radian) - radians to degree and backwards conversion
   * `B``R` [Fast Powering](src/algorithms/math/fast-powering)
   * `A` [Integer Partition](src/algorithms/math/integer-partition)
   * `A` [Square Root](src/algorithms/math/square-root) - Newton's method
